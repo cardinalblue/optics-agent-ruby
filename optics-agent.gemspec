@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'graphql', '~> 1.1'
   s.add_runtime_dependency 'google-protobuf', '~> 3.2'
-  s.add_runtime_dependency 'faraday', '~> 0.11'
+  s.add_runtime_dependency 'faraday', '~> 0.9.0', '< 0.12'
   s.add_runtime_dependency 'net-http-persistent', '~> 2.0'
   s.add_runtime_dependency 'hitimes', '~> 1.2'
 
